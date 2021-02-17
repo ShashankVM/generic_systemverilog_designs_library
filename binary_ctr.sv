@@ -10,6 +10,5 @@ module binary_ctr
   always_ff @ (posedge clk) 
     if (reset == 1) q <= 'b0;
     else            q <= (mode == 1) ? q + 1 : q - 1; 
-  end
   
 endmodule
