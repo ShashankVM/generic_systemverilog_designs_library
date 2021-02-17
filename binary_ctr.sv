@@ -7,11 +7,9 @@ module binary_ctr
    
   logic [WIDTH-1:0] counter;
   
-  always_ff @ (posedge clk) begin
-    if (reset == 1) 
-      q <= 'b0;
-    else 
-      q <= (mode == 1) ? q + 1 : q - 1; 
+  always_ff @ (posedge clk) 
+    if (reset == 1) q <= 'b0;
+    else            q <= (mode == 1) ? q + 1 : q - 1; 
   end
   
 endmodule
