@@ -1,8 +1,8 @@
 module gray_ctr
   #(parameter WIDTH=4)
   (input logic clk,                
-	input logic reset,
-    output logic [WIDTH-1:0] q);    
+   input logic reset,
+   output logic [WIDTH-1:0] q);    
    
   logic [WIDTH-1:0] counter;
   
