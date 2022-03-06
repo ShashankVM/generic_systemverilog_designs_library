@@ -2,7 +2,7 @@ module tb;
   parameter WIDTH = 4;
   
   logic clk,
-      reset;
+        reset;
   logic [WIDTH-1:0] q;
    
   binary_counter #(WIDTH)	u0(.*);
