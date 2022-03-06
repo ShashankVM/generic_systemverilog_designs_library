@@ -5,7 +5,7 @@ n-bit binary counter with asynchronous reset in SystemVerilog.
 n-bit binary to gray code combinational converter circuit in SystemVerilog.
 
 # demultiplexer
-Demultiplexer of parameterized width and paraneterized number of output ports.
+Demultiplexer of parameterized width and parameterized number of output ports.
 
 # full_adder
 n-bit full adder in SystemVerilog
