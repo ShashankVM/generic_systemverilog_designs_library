@@ -11,5 +11,5 @@ n-bit full adder in SystemVerilog
 n-bit full subtractor in SystemVerilog
 
 # gray_counter
-n-bit gray code counter with asynchronous reset implemented using binary counter and gray code combinational circuit in SystemVerilog. 
+n-bit gray code counter with asynchronous reset implemented using binary counter and binary to gray code combinational converter circuit in SystemVerilog. 
 
