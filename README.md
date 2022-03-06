@@ -1,6 +1,9 @@
 # binary_counter
 n-bit binary counter with asynchronous reset in SystemVerilog. 
 
+# binary_to_gray
+n-bit binary to gray code combinational converter circuit in SystemVerilog.
+
 # full_adder
 n-bit full adder in SystemVerilog
 
